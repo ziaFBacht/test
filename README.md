@@ -15,18 +15,26 @@ Variable wajib memiliki tipe data dan nama variable.
 Ketika kita akan mengakses variable, kita cukup menyebutkan  nama variable nya.
 
 Untuk membuat deklarasi variable, kita bisa gunakan format :
+
 ``TipeData namaVariable;``
-Biasanya penamaan variable di C# menggunakan ``camelCase``, seperti ``firstName, lastName, longVariableName``
+
+Biasanya penamaan variable di C# menggunakan ``camelCase``, seperti 
+
+``firstName, lastName, longVariableName``
+
 Setelah mendeklarasikan variable, kita bisa mengubah isi variable dengan cara :
+
 ``namaVariable = isi value``
 
 Variable juga bisa dibuat langsung dengan deklarasi nilai nya.
 Cara membuatnya kita bisa gunakan perintah :
+
 ``TipeData namaVariable = isivariable;``
 
 Saat kita membuat variable langsung dengan nilainya, kita bisa menggunakan kata kunci var sebagai pengganti TipeData nya
 TipeData akan dibaca sesuai dengan isi nilai nya secara otomatis oleh C#, sehingga kita tidak perlu menyebutkan TipeData nya lagi
 Cara menggunakan kata kunci var, seperti ini :
+
 ``var namaVariable = value;``
 
 Const digunakan untuk menjadikan variable dan nilainya menjadi immutable (tidak bisa diubah sama sekali)
@@ -40,8 +48,11 @@ Komentar adalah kode program yang akan diabaikan ketika kode program di dijalank
 Biasanya komentar digunakan untuk menambahkan dokumentasi pada kode program
 
 Single-line atau satu baris, bisa menggunakan perintah :
+
 ``// silahkan komentar disini``,
+
 Multi-line atau lebih dari satu baris, bisa menggunakan perintah :
+
 ``/*
 komentar
 */``
